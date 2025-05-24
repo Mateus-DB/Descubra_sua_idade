@@ -1,54 +1,59 @@
-# React + TypeScript + Vite
+# 🧮 Descubra Sua Idade
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Descubra Sua Idade** é uma aplicação simples onde o usuário insere seu nome e ano de nascimento, e ao clicar em um botão, o sistema calcula e exibe sua idade atual.
+O projeto foi desenvolvido utilizando **React**, **TypeScript**, **HTML** e **CSS**.
 
-Currently, two official plugins are available:
+## ✨ Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Campo de entrada para o **nome** do usuário
+* Campo de entrada para o **ano de nascimento**
+* Botão que, ao ser clicado, **exibe a idade** do usuário com base no ano atual
+* Interface simples, responsiva e amigável
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+* [React](https://reactjs.org/)
+* [TypeScript](https://www.typescriptlang.org/)
+* HTML5
+* CSS3
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 📦 Instalação
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1. Clone o repositório:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+   ```bash
+   git clone https://github.com/seu-usuario/descubra-sua-idade.git
+   ```
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+2. Acesse o diretório do projeto:
+
+   ```bash
+   cd descubra-sua-idade
+   ```
+
+3. Instale as dependências:
+
+   ```bash
+   npm install
+   ```
+
+4. Inicie o projeto:
+
+   ```bash
+   npm start
+   ```
+
+5. Acesse no navegador:
+
+   ```
+   http://localhost:3000
+   ```
+
+## 🤝 Contribuições
+
+Contribuições são bem-vindas!
+Sinta-se à vontade para abrir uma *issue* ou enviar um *pull request*.
+
+## 🔗 Acesse a Aplicação
+
+
