@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/Descubra_sua_idade/'
+  base: '/Descubra_sua_idade'
 })
