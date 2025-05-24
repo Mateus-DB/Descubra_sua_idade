@@ -1,0 +1,17 @@
+:root {
+    --background: #111111;
+    --color-input: #111111;
+    --background-area-input: #FAFAFA;
+    --button-descobrir: #5DE5FF
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: var(--background);
+    overflow: hidden;
+    padding: 0 20px;
+}

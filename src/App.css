@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+   
+}
+
+h1 {
+    color: var(--background-area-input);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    background: var(--background-area-input);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+label {
+    color: gray;
+    font-size: 14px;
+}
+
+input {
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    background: var(--color-input);
+    border: 0;
+    color: gray
+}
+
+.descobrir {
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    color: var(--color-input);
+    font-weight: bold;
+    background: var(--button-descobrir);
+    text-align: center;
+}
+
+h2 {
+    color: var(--background-area-input);
+    padding-top: 20px;
+}
